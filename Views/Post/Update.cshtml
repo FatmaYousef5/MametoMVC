@@ -1,0 +1,29 @@
+﻿@using System.Security.Claims;
+@model Mameto.Models.PostModel
+@{
+    ViewData["Title"] = "Create";
+}
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/Mameto.styles.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<form asp-action="Update" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="PId" />
+    <input asp-for="PContent" id="postinput" type="text">
+    <span asp-validation-for="PContent"></span>
+
+    <input type="file" accept="image/*" name="Img" style="position:absolute;" />
+
+    <input type="hidden" name="UId" value="@User.FindFirstValue(ClaimTypes.NameIdentifier)">
+    <div id="post">
+
+        <button id="postbutton" type="submit" value="Save">Post</button>
+    </div>
+    <div>
+        <a asp-action="Index">Cancel</a>
+    </div>
+</form>

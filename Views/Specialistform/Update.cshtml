@@ -1,0 +1,38 @@
+﻿@using System.Security.Claims;
+@model ApplicationUser
+@{
+    ViewData["Title"] = "Create";
+}
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/Mameto.styles.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<form asp-action="Update" asp-controller="Specialistform" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" name="Id" value="@User.FindFirstValue(ClaimTypes.NameIdentifier)">
+    <label>Phone</label>
+    <input asp-for="Phone" type="text">
+    <span asp-validation-for="Phone"></span>
+    <label>Country</label>
+    <input asp-for="Country" type="text">
+    <span asp-validation-for="Country"></span>
+    <label>City</label>
+    <input asp-for="City" type="text">
+    <span asp-validation-for="City"></span>
+    <label>Address</label>
+    <input asp-for="Address" type="text">
+    <span asp-validation-for="Address"></span>
+    <label>Bio</label>
+    <input asp-for="Bio" type="text">
+    <span asp-validation-for="Bio"></span>
+     <input type="file" accept="image/*" name="Img" style="position:absolute;" /> 
+    <div id="post">
+        <button id="postbutton" type="submit" value="Save">Post</button>
+    </div>
+    <div>
+        <a asp-action="Index" asp-controller="Home">Cancel</a>
+    </div>
+</form>

@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Mameto.Models.CommentModel>
+@using System.Security.Claims
+
+
+    @{
+    var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+    }
+
+
+@foreach(var item in Model){
+    <p>@item.CContent</p>
+    @foreach(var img in item.CommentImgs)
+    {
+        <center><img id="postimg" src="~/cimg/@img.Img" style="width:300px; height : 200px; margin-top:25px"/></center>
+    }
+
+    @if (@item.UId == userId)
+    {
+                    <div class="dropdown">
+                        <button style="width:65px; border-style:none; background-color:white; font-size:25px;">...</button>
+                        <div class="dropdown-content">
+                @if (@item.UId == userId)
+                {
+                                    <a asp-action="Delete" asp-route-id="@item.CId">Delete</a>
+                }
+                @if (@item.UId == userId)
+                {
+                                    <a asp-action="Update" asp-route-id="@item.CId">Update</a>
+                }
+
+                        </div>
+                    </div>
+    }
+}
+

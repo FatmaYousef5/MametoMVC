@@ -1,0 +1,14 @@
+﻿@model Mameto.Models.PostModel
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/Mameto.styles.css" asp-append-version="true" />
+
+<h id="deleteh">Are you sure to delete the post?!</h>
+<div style="padding-top:20px;">
+<form asp-action="Delete">
+    <input type="hidden" asp-for="PId" />
+        <input type="submit" value="Delete" class="btn btn-danger" id="delete-btn"/> 
+    <a asp-action="Index"><button type="button" id="cancel-btn">Cancel</button></a>
+
+</form>
+</div>

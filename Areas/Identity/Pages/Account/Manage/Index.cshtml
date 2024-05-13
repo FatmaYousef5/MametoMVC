@@ -1,0 +1,145 @@
+﻿@page
+@using System.Security.Claims
+@model IndexModel
+@inject UserManager<ApplicationUser> UserManager
+@{
+    ViewData["Title"] = "Profile";
+    ViewData["ActivePage"] = ManageNavPages.Index;
+}
+
+@{
+    var userId = @User.FindFirst(ClaimTypes.NameIdentifier).Value;
+    var user = UserManager.Users.FirstOrDefault(u => u.Id == userId);
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Mameto.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Profile</title>
+</head>
+<body id="body1">
+    <div id="div9"><img id="img6" src="~/frontendImgs/mameto.png"> <img id="img7" src="~/frontendImgs/profile img.png"></div>
+    <img id="img8" src="~/frontendImgs/logo2.png">
+    <div id="div10">
+        <a href="home.html" id="aaa"> <button id="p3"><img id="img100" src="~/frontendImgs/home1.png"
+                    style="width:15px; position: relative; top: -1.8px;"> Home</button> </a>
+        <a href="community.html"> <button id="p3"><img id="img100" src="~/frontendImgs//community1.png" style="width:18px; position: relative; top: -1.8px;">
+                Community</button> </a>
+        <a href="#"> <button id="p3"><img id="img100" src="~/frontendImgs/specialist1.png"
+                    style="width:12px; position: relative; top: -1.8px;"> Specialist</button> </a>
+        <a href="kids area.html"> <button id="p3"><img id="img100" src="~/frontendImgs/kids area1.png"
+                    style="width:17.5px; position: relative; top: -1.8px;"> Kids area</button> </a>
+        <a href="profile.html"> <button id="p3"><img id="img100" src="~/frontendImgs/profile1.png" style="width:15.5px; position: relative; top: -1.8px;">
+                Profile</button> </a>
+        <a href="setting.html"> <button id="p3"><img id="img100" src="~/frontendImgs/settings1.png" style="width:16px; position: relative; top: -1.8px;">
+                Settings</button> </a>
+    </div>
+
+    <form id="profile-form" method="post" enctype="multipart/form-data">
+        <div id="div1" class="card sticky-bottom card-wrapper-profile">
+          
+            <div class="text-center pb-3" >
+                @if (Model.Input.Photo != "")
+                {
+                    <img class="card-img-top img-fluid rounded-circle" id="profilePicture" src="~/Userphoto/@Model.Input.Photo">
+                }
+                else
+                {
+                    <img id="profilePicture" src="~/frontendImgs/photo.png"  class="card-img-top ggg imgs rounded-circle w-75 pt-3">
+                }
+            </div>
+            
+            <center class="custom-file">
+                <input id="input1" type="file" asp-for="Input.Photo" name="img" accept="iamge/*"
+                       class="custom-file-input"
+                       onchange="document.getElementById('profilePicture').src = window.URL.createObjectURL(this.files[0])">Update
+                photo
+            </center>
+            <button type="submit" class="btn btn-outline-dark">Save</button>
+            <div class="card-body">
+                <h4 id="h1">Identity verification</h4>
+                <p id="p1" class="card-text pt-3">
+                    Show others
+                    you’re really you with the identity verification badge.
+                </p>
+                <button id="btn1" class="btn-sm btn-outline-dark rounded-3">
+                    Get
+                    the badge
+                </button>
+                <hr>
+                <center>
+                    <div id="div2"></div>
+                </center>
+                <h4 id="h4" class="sticky-bottom">
+                    @user.Email confirmed
+                </h4>
+                <p id="p2">
+                    <svg width="30px" height="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">< https://fontawesome.com License - https://fontawesome.com/license ><path d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg> Email address
+                </p>
+            </div>
+            </form>
+    <div id="div13">
+        <img id="img9" src="~/frontendImgs/photo.png">
+        <h id="h8">Fatma Yousef</h>
+        <button id="btn8">Edit profile</button>
+        <div id="div17">
+            <label id="label3">first name</label>
+            <input id="input2" value="@user.FName" type="text" placeholder="first name" style="position: relative; left: 83px;"><br>
+            <label id="label3">last name</label>
+            <input id="input2" value="@user.LName" type="text" placeholder="last name" style="position: relative; left: 86px;"><br>
+            <label id="label3">e-mail</label>
+            <input id="input2" type="email" placeholder="e-mail" style="position: relative; left: 109px;"><br>
+            <label id="label3">password</label>
+            <input id="input2" type="password" placeholder="password" style="position: relative; left: 89px;"><br>
+            <label id="label3">confirmed password</label>
+            <input id="input2" type="password" placeholder="confirmed password">
+        </div>
+        <button class="btn5" style="position: relative; top: 80px !important; left: 350px !important;">Done!</button>
+    </div>  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>@ViewData["Title"]</h3>
+<partial name="_StatusMessage" for="StatusMessage" />
+<div class="row">
+    <div class="col-md-6">
+        <form id="profile-form" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <div class="form-floating mb-3">
+                <input asp-for="Username" class="form-control" placeholder="Please choose your username." disabled />
+                <label asp-for="Username" class="form-label"></label>
+            </div>
+            @*<div class="form-floating mb-3">
+                <input asp-for="Input.PhoneNumber" class="form-control" placeholder="Please enter your phone number."/>
+                <label asp-for="Input.PhoneNumber" class="form-label"></label>
+                <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+            </div>*@
+            <button id="update-profile-button" type="submit" class="w-100 btn btn-lg btn-primary">Save</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

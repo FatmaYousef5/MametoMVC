@@ -1,0 +1,54 @@
+﻿@model Mameto.Models.PostModel
+@using System.Security.Claims;
+
+@{
+    ViewData["Title"] = "Details";
+    var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+}
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/Mameto.styles.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<div style="background-color: rgb(233, 236, 235);">
+@foreach (var comment in Model.Comment)
+{
+            <div class="commentsborder">
+    @if (@comment.UId == userId)
+    {
+        <div class="cdropdown">
+            <button style="width:65px; border-style:none; background-color:white; font-size:25px;">...</button>
+            <div class="cdropdown-content">
+                @if (@comment.UId == userId)
+                {
+                    <a style="text-decoration:none;" asp-action="commentDelete" asp-route-id="@comment.CId">Delete</a>
+                }
+                @if (@comment.UId == userId)
+                {
+                    <a style="text-decoration:none;" asp-action="commentUpdate" asp-route-id="@comment.CId">Update</a>
+                }
+
+            </div>
+        </div>
+    }
+
+      <h id="nameh">
+    @Html.DisplayFor(modelitem => comment.User.FName)  
+    @Html.DisplayFor(modelitem => comment.User.LName)
+    </h>
+    <br />
+    <br />
+    <h id="contenth">
+    @Html.DisplayFor(modelitem => comment.CContent)<br>
+    </h>
+    @foreach (var img in comment.CommentImgs)
+    {
+            <div style="display:inline-block">
+        <center><img id="postimg" src="~/cimg/@img.Img" style="width:300px; height : 200px; margin-top:25px" /></center>
+        </div>
+    }
+    </div>
+}
+
+</div>

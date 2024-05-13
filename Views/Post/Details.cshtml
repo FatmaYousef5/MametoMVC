@@ -1,0 +1,58 @@
+﻿@model Mameto.Models.PostModel
+@using System.Security.Claims;
+
+@{
+    ViewData["Title"] = "Details";
+    var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+}
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/Mameto.styles.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<form method="post" asp-action="Comment" asp-controller="Post" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div id="witecomments">
+        <input name="CContent" id="postinput" type="text" placeholder="Write your comment" @*style="width:600px; height:120px; border-style:none;"*@ />
+
+
+        <input type="hidden" name="UId" value="@User.FindFirstValue(ClaimTypes.NameIdentifier)">
+        <input type="hidden" name="PId" value="@Model.PId" />
+
+        <input type="file" accept="image/*" name="CImg" style="position:absolute;" multiple />
+        <div id="post">
+            <button id="postbutton" type="submit">Comment</button>
+        </div>
+    </div>
+
+</form>
+
+
+@*@foreach(var comment in Model.Comment){
+    @if (@comment.UId == userId)
+    {
+                    <div class="dropdown">
+                        <button style="width:65px; border-style:none; background-color:white; font-size:25px;">...</button>
+                        <div class="dropdown-content">
+                @if (@comment.UId == userId)
+                {
+                                    <a asp-action="commentDelete" asp-route-id="@comment.CId">Delete</a>
+                }
+                @if (@comment.UId == userId)
+                {
+                                    <a asp-action="commentUpdate" asp-route-id="@comment.CId">Update</a>
+                }
+
+                        </div>
+                    </div>
+    }
+    @Html.DisplayFor(modelitem => comment.User.FName)  @Html.DisplayFor(modelitem => comment.User.LName) <br /> <br /> 
+    @Html.DisplayFor(modelitem => comment.CContent)
+    @foreach(var img in comment.CommentImgs)
+    {
+        <center><img id="postimg" src="~/cimg/@img.Img" style="width:300px; height : 200px; margin-top:25px" /></center>
+    }
+}*@

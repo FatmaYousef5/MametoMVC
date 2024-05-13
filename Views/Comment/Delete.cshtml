@@ -1,0 +1,19 @@
+﻿@model Mameto.Models.CommentModel
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/Mameto.styles.css" asp-append-version="true" />
+
+
+@Html.DisplayFor(model => model.CContent)
+@Html.DisplayFor(model => model.User.Id)
+@Html.DisplayFor(model => model.Post.PId)
+
+
+<h id="deleteh">Are you sure to delete the comment?!</h>
+<div style="padding-top:20px;">
+<form asp-action="Delete">
+    <input type="hidden" asp-for="CId" />
+        <input type="submit" value="Deletecomment" class="btn btn-danger" id="delete-btn" />
+        <a asp-action="Index"><button type="button" id="cancel-btn">Cancel</button></a>
+</form>
+</div>

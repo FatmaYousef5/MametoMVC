@@ -1,0 +1,47 @@
+﻿@using System.Security.Claims;
+@model PostModel
+@{
+    ViewData["Title"] = "Create";
+}
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/Mameto.styles.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<form method="post" asp-action="Comment" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="container">
+        <button id="commentbtn" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Write comment</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content" style="width:650px; height:350px;">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Comment</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <input name="CContent" type="text" placeholder="Write your comment" style="width:600px; height:120px; border-style:none;" />
+
+
+                        <input type="hidden" name="UId" value="@User.FindFirstValue(ClaimTypes.NameIdentifier)">
+                        @Html.DisplayFor(model => model.PId)
+                        <input type="hidden" name="PId" value="@Model.PId" />
+                    </div>
+                    <div class="modal-footer">
+                        <input type="file" accept="image/*" name="CImg" style="position:absolute;" />
+                        <button type="submit">comment</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</form>

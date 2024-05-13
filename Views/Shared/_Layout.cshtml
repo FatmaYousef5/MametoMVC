@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Mameto</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Mameto.styles.css" asp-append-version="true" />
+</head>
+<body id="body">
+    <div>
+        <center>
+            <header id="header">
+                Home Community Specialist <img src="~/frontendImgs/logo.png"> KidsArea Profile <set id="setcol">
+                    Setting
+                </set> <a href="identity/account/login"><button id="btn1">Log-in</button></a> <a href="identity/account/register"><button id="btn2">Sign-up</button></a>
+            </header>
+        </center>
+    </div>
+    <div id="div1">
+        <p id="p">
+            Welcom To Mameto
+        </p>
+        <p id="p1">
+            Make Time With Your Child The<br>
+            <bri id="bri">Best Time , Mameto Is An</bri><br>
+            <bri1 id="bri1">Integrated Community To Help</bri1><br> You To Take Care Of
+            Your Child.
+        </p>
+        <a href="post/index"><button id="btn3">Get Started</button></a>
+    </div>
+    <img id="img" src="~/frontendImgs/home.png">
+    <div id="div"></div>
+    <center>
+        <h4 id="h">About us</h4>
+    </center>
+    <img id="img1" src="~/frontendImgs/community.png">
+    <div id="div2">
+        <h id="h1">01</h>
+        <p id="p2">Community</p>
+        <p id="p2">
+            <br>
+            You Can Communicate Better And
+            <br>
+            Inquire About Anything About
+            <br>
+            Your Child Now In A Safe
+            <br>
+            Community
+        </p>
+    </div>
+    <div id="div3">
+        <h id="h1">02</h>
+        <p id="p2">Ask the specialist</p>
+        <p id="p2">
+            <br>
+            Specialized In Raising Children
+            <br>
+            And How To Deal With Them And
+            <br>
+            Qualifying Your Child To Deal
+            <br>
+            With You And Understand Them
+            <br>
+            As Well
+        </p>
+    </div>
+    <img id="img2" src="~/frontendImgs/ask the specialist.png">
+    <img id="img3" src="~/frontendImgs/kids area.png">
+
+    <div id="div4">
+        <h id="h1">03</h>
+        <p id="p2">Kids Area</p>
+        <p id="p2">
+            <br>
+            We Suggest To You The Best Places
+            <br>
+            Of Entertainment For Your Child,
+            <br>
+            Which Are Highly Secured To
+            <br>
+            Protect Your Baby
+        </p>
+    </div>
+    @RenderBody()
+</body>
+</html>
+
+
+
+
+
+
+@*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Mameto</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Mameto.styles.css" asp-append-version="true" />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Mameto</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - Mameto - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    
+</body>
+</html>
+*@
+@await RenderSectionAsync("Scripts", required: false)

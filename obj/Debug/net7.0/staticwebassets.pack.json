@@ -1,0 +1,661 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Mameto.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Mameto.bundle.scp.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\0138ee75-312d-4da2-b2ec-e76f6bd30e07_CImg.png",
+      "PackagePath": "staticwebassets\\Img\\0138ee75-312d-4da2-b2ec-e76f6bd30e07_CImg.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\01dd0969-3454-4908-87e8-88a85f6e186c_Img.png",
+      "PackagePath": "staticwebassets\\Img\\01dd0969-3454-4908-87e8-88a85f6e186c_Img.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\03b2df7d-726f-4a95-9d9e-432ad99b5bbc_CImg.jpg",
+      "PackagePath": "staticwebassets\\Img\\03b2df7d-726f-4a95-9d9e-432ad99b5bbc_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\074b14b8-fb81-49d4-843c-ff45d386479a_Img.jpeg",
+      "PackagePath": "staticwebassets\\Img\\074b14b8-fb81-49d4-843c-ff45d386479a_Img.jpeg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\0b7a203b-2391-43b9-ba26-d095dcf21ead_CImg.ico",
+      "PackagePath": "staticwebassets\\Img\\0b7a203b-2391-43b9-ba26-d095dcf21ead_CImg.ico"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\114dda76-c7ad-4e99-84d8-3e6440a3b1da_Img.jpeg",
+      "PackagePath": "staticwebassets\\Img\\114dda76-c7ad-4e99-84d8-3e6440a3b1da_Img.jpeg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\287569bc-f72e-4610-a098-f2c8cafb0e71_Img.jpg",
+      "PackagePath": "staticwebassets\\Img\\287569bc-f72e-4610-a098-f2c8cafb0e71_Img.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\2c0440b9-e220-40e0-b97f-8db9385f2eef_CImg.webp",
+      "PackagePath": "staticwebassets\\Img\\2c0440b9-e220-40e0-b97f-8db9385f2eef_CImg.webp"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\31883819-8822-48c8-9e70-52e423d527a7_CImg.ico",
+      "PackagePath": "staticwebassets\\Img\\31883819-8822-48c8-9e70-52e423d527a7_CImg.ico"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\3326b47d-577a-4930-9cd4-d8cc0b6a1c41_Img.jpg",
+      "PackagePath": "staticwebassets\\Img\\3326b47d-577a-4930-9cd4-d8cc0b6a1c41_Img.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\3944559d-7ee3-4f0d-894c-0c572c93a871_Img.jpg",
+      "PackagePath": "staticwebassets\\Img\\3944559d-7ee3-4f0d-894c-0c572c93a871_Img.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\3c2bee81-c4ef-4187-a9b6-82aff83c9605_CImg.jpeg",
+      "PackagePath": "staticwebassets\\Img\\3c2bee81-c4ef-4187-a9b6-82aff83c9605_CImg.jpeg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\3e2056d9-22ab-48e8-8daf-e64ea0f4fd4c_Img.jpg",
+      "PackagePath": "staticwebassets\\Img\\3e2056d9-22ab-48e8-8daf-e64ea0f4fd4c_Img.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\4437d98e-aa51-47be-9bae-bb40b9fc340b_CImg.jpg",
+      "PackagePath": "staticwebassets\\Img\\4437d98e-aa51-47be-9bae-bb40b9fc340b_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\543ff557-2520-4a61-b7f6-2cee085eb915_CImg.jpg",
+      "PackagePath": "staticwebassets\\Img\\543ff557-2520-4a61-b7f6-2cee085eb915_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\5b51e9c9-436b-4e24-a143-52a60e79b9c1_CImg.jpg",
+      "PackagePath": "staticwebassets\\Img\\5b51e9c9-436b-4e24-a143-52a60e79b9c1_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\6228ac16-2b21-47a4-bb5f-57e40c9ab4e7_Img.webp",
+      "PackagePath": "staticwebassets\\Img\\6228ac16-2b21-47a4-bb5f-57e40c9ab4e7_Img.webp"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\6895a89b-f699-4448-86b8-e894c9d0380d_Img.webp",
+      "PackagePath": "staticwebassets\\Img\\6895a89b-f699-4448-86b8-e894c9d0380d_Img.webp"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\6f7bcbbf-6fa3-4edc-ad83-ac01c48dd301_CImg.ico",
+      "PackagePath": "staticwebassets\\Img\\6f7bcbbf-6fa3-4edc-ad83-ac01c48dd301_CImg.ico"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\77484978-004f-4db8-bd99-b0c5269ebe01_CImg.jpg",
+      "PackagePath": "staticwebassets\\Img\\77484978-004f-4db8-bd99-b0c5269ebe01_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\868d74bd-5b25-4422-a638-50f5526ac7f6_CImg.png",
+      "PackagePath": "staticwebassets\\Img\\868d74bd-5b25-4422-a638-50f5526ac7f6_CImg.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\8e320e3d-b336-453c-b4d0-81ceabd68ae4_Img.webp",
+      "PackagePath": "staticwebassets\\Img\\8e320e3d-b336-453c-b4d0-81ceabd68ae4_Img.webp"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\9089a078-f56e-46f0-8f9f-a8aba4697a8f_CImg.jpg",
+      "PackagePath": "staticwebassets\\Img\\9089a078-f56e-46f0-8f9f-a8aba4697a8f_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\92c36f5b-6663-45aa-a026-4b02d5c6c1d3_CImg.jpeg",
+      "PackagePath": "staticwebassets\\Img\\92c36f5b-6663-45aa-a026-4b02d5c6c1d3_CImg.jpeg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\97b1a1a3-3c75-4a33-abc0-bfad31f68641_CImg.jpeg",
+      "PackagePath": "staticwebassets\\Img\\97b1a1a3-3c75-4a33-abc0-bfad31f68641_CImg.jpeg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\98072e1f-a6cb-4e58-bf96-1f6da8b6c30a_Img.png",
+      "PackagePath": "staticwebassets\\Img\\98072e1f-a6cb-4e58-bf96-1f6da8b6c30a_Img.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\9fe9f7a7-7334-407f-8da4-19f1a8cfb9e7_Img.jpg",
+      "PackagePath": "staticwebassets\\Img\\9fe9f7a7-7334-407f-8da4-19f1a8cfb9e7_Img.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\a0304539-c188-444d-a782-cbb659e3b1f7_CImg.jpg",
+      "PackagePath": "staticwebassets\\Img\\a0304539-c188-444d-a782-cbb659e3b1f7_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\a19c1df8-ae48-47f4-9704-dd64b5d3f1b4_CImg.png",
+      "PackagePath": "staticwebassets\\Img\\a19c1df8-ae48-47f4-9704-dd64b5d3f1b4_CImg.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\ab39aee2-4097-4d3f-a411-2944439c8392_CImg.jpg",
+      "PackagePath": "staticwebassets\\Img\\ab39aee2-4097-4d3f-a411-2944439c8392_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\ad350b27-0b53-4b79-83c9-737c28fda42a_Img.jpeg",
+      "PackagePath": "staticwebassets\\Img\\ad350b27-0b53-4b79-83c9-737c28fda42a_Img.jpeg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\bd1270fc-9e54-450f-bc80-1a0c4c058ee7_Img.png",
+      "PackagePath": "staticwebassets\\Img\\bd1270fc-9e54-450f-bc80-1a0c4c058ee7_Img.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\c08aedc7-aa53-4841-9e26-d853d6da2101_Img.jpg",
+      "PackagePath": "staticwebassets\\Img\\c08aedc7-aa53-4841-9e26-d853d6da2101_Img.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\c0d630c4-269c-4fd6-b55a-fde4385a854e_CImg.jpg",
+      "PackagePath": "staticwebassets\\Img\\c0d630c4-269c-4fd6-b55a-fde4385a854e_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\c5515ba0-5ff1-40a4-a1b9-4e4f6d20448a_Img.jpg",
+      "PackagePath": "staticwebassets\\Img\\c5515ba0-5ff1-40a4-a1b9-4e4f6d20448a_Img.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\c83c67a2-e6a5-4161-a652-a86144fddccc_CImg.png",
+      "PackagePath": "staticwebassets\\Img\\c83c67a2-e6a5-4161-a652-a86144fddccc_CImg.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\cd66fb95-faaf-4497-949d-f06a817f1e98_CImg.jpg",
+      "PackagePath": "staticwebassets\\Img\\cd66fb95-faaf-4497-949d-f06a817f1e98_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\cff4169f-79f3-4400-9f81-ce5b9b67ab6f_CImg.webp",
+      "PackagePath": "staticwebassets\\Img\\cff4169f-79f3-4400-9f81-ce5b9b67ab6f_CImg.webp"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\d29e785e-ecfd-40fe-b499-114cada20f30_Img.jpeg",
+      "PackagePath": "staticwebassets\\Img\\d29e785e-ecfd-40fe-b499-114cada20f30_Img.jpeg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\e04dc0a9-8e84-416d-b68d-cec9503ec044_CImg.jpg",
+      "PackagePath": "staticwebassets\\Img\\e04dc0a9-8e84-416d-b68d-cec9503ec044_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\e2cbb48b-a9ff-4926-b29c-d6a8f31f55b5_CImg.png",
+      "PackagePath": "staticwebassets\\Img\\e2cbb48b-a9ff-4926-b29c-d6a8f31f55b5_CImg.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\Img\\f1de3a4d-a275-4feb-82a5-07a15c878961_Img.jpg",
+      "PackagePath": "staticwebassets\\Img\\f1de3a4d-a275-4feb-82a5-07a15c878961_Img.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\cimg\\1a3b2d1f-3c8d-476d-87a4-8c83679f9328_CImg.jpg",
+      "PackagePath": "staticwebassets\\cimg\\1a3b2d1f-3c8d-476d-87a4-8c83679f9328_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\cimg\\229a9974-a4c2-4888-afbe-2e45b762a9e7_CImg.jpg",
+      "PackagePath": "staticwebassets\\cimg\\229a9974-a4c2-4888-afbe-2e45b762a9e7_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\cimg\\429fb153-261d-4e0d-8907-8eec9a783540_CImg.jpg",
+      "PackagePath": "staticwebassets\\cimg\\429fb153-261d-4e0d-8907-8eec9a783540_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\cimg\\68f572a7-0cb9-4a7f-81f2-346f23367869_CImg.jpg",
+      "PackagePath": "staticwebassets\\cimg\\68f572a7-0cb9-4a7f-81f2-346f23367869_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\cimg\\7ba22ca0-18b4-4841-99f5-508dcc59e770_CImg.png",
+      "PackagePath": "staticwebassets\\cimg\\7ba22ca0-18b4-4841-99f5-508dcc59e770_CImg.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\cimg\\b67d685c-8450-4970-99a5-e925f55ef5cf_CImg.jpg",
+      "PackagePath": "staticwebassets\\cimg\\b67d685c-8450-4970-99a5-e925f55ef5cf_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\cimg\\b6b68f8e-f7a1-47e4-a344-ce9370e11caa_CImg.jpg",
+      "PackagePath": "staticwebassets\\cimg\\b6b68f8e-f7a1-47e4-a344-ce9370e11caa_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\cimg\\c5107bc4-2078-482c-8b14-5209004fc742_CImg.jpg",
+      "PackagePath": "staticwebassets\\cimg\\c5107bc4-2078-482c-8b14-5209004fc742_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\cimg\\e2567928-b6f3-489b-91c6-52d872249265_CImg.jpg",
+      "PackagePath": "staticwebassets\\cimg\\e2567928-b6f3-489b-91c6-52d872249265_CImg.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\fonts\\Merriweather-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Merriweather-Black.ttf"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\fonts\\Merriweather-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Merriweather-Bold.ttf"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\fonts\\Merriweather-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Merriweather-Light.ttf"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\fonts\\Merriweather-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Merriweather-Regular.ttf"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\ask the specialist.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\ask the specialist.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\community.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\community.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\community1.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\community1.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\consultation.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\consultation.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\google.jpg",
+      "PackagePath": "staticwebassets\\frontendImgs\\google.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\home.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\home.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\home1.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\home1.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\ka1.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\ka1.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\ka2.jpg",
+      "PackagePath": "staticwebassets\\frontendImgs\\ka2.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\ka3.jpg",
+      "PackagePath": "staticwebassets\\frontendImgs\\ka3.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\ka4.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\ka4.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\ka5.jpg",
+      "PackagePath": "staticwebassets\\frontendImgs\\ka5.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\ka6.jpg",
+      "PackagePath": "staticwebassets\\frontendImgs\\ka6.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\ka7.jpg",
+      "PackagePath": "staticwebassets\\frontendImgs\\ka7.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\ka8.jpg",
+      "PackagePath": "staticwebassets\\frontendImgs\\ka8.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\kids area.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\kids area.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\kids area1.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\kids area1.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\location.jpg",
+      "PackagePath": "staticwebassets\\frontendImgs\\location.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\login.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\login.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\logo.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\logo.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\logo2.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\logo2.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\mameto.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\mameto.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\photo.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\photo.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\picture.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\picture.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\playing.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\playing.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\profile img.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\profile img.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\profile1.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\profile1.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\search.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\search.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\settings1.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\settings1.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\signup.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\signup.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\specialist1.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\specialist1.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\frontendImgs\\upload.png",
+      "PackagePath": "staticwebassets\\frontendImgs\\upload.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\specialistCertificate\\0304b1c1-40e1-4e55-90cb-a26a94879a97_Img.jpg",
+      "PackagePath": "staticwebassets\\specialistCertificate\\0304b1c1-40e1-4e55-90cb-a26a94879a97_Img.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\specialistCertificate\\10740321-9491-4d23-9a6d-f65728b5ee8b_Img.png",
+      "PackagePath": "staticwebassets\\specialistCertificate\\10740321-9491-4d23-9a6d-f65728b5ee8b_Img.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\specialistCertificate\\18ba1910-9881-417f-a77b-9d6c8f6c7f60_Img.png",
+      "PackagePath": "staticwebassets\\specialistCertificate\\18ba1910-9881-417f-a77b-9d6c8f6c7f60_Img.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\specialistCertificate\\197f5093-24fb-41c4-ae32-43b42ae5eb92_Img.png",
+      "PackagePath": "staticwebassets\\specialistCertificate\\197f5093-24fb-41c4-ae32-43b42ae5eb92_Img.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\specialistCertificate\\259c90ba-ae20-4487-8ecf-db730f7546a1_Img.png",
+      "PackagePath": "staticwebassets\\specialistCertificate\\259c90ba-ae20-4487-8ecf-db730f7546a1_Img.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\specialistCertificate\\6dee6d83-c107-49eb-a6d2-05997e70eebb_Img.png",
+      "PackagePath": "staticwebassets\\specialistCertificate\\6dee6d83-c107-49eb-a6d2-05997e70eebb_Img.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\specialistCertificate\\7a25f657-eb9c-4337-b9a2-fe68ef2acfa4_Img.png",
+      "PackagePath": "staticwebassets\\specialistCertificate\\7a25f657-eb9c-4337-b9a2-fe68ef2acfa4_Img.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\specialistCertificate\\82980dfd-e4f0-4719-8587-2c9c8464c0f4_Img.jpg",
+      "PackagePath": "staticwebassets\\specialistCertificate\\82980dfd-e4f0-4719-8587-2c9c8464c0f4_Img.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\specialistCertificate\\8bc93366-4c8f-458a-8f2a-2ff68d8dc687_Img.jpg",
+      "PackagePath": "staticwebassets\\specialistCertificate\\8bc93366-4c8f-458a-8f2a-2ff68d8dc687_Img.jpg"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\specialistCertificate\\975fb715-531c-4d03-a40d-dcb7f496e03b_Img.png",
+      "PackagePath": "staticwebassets\\specialistCertificate\\975fb715-531c-4d03-a40d-dcb7f496e03b_Img.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\specialistCertificate\\9e243be2-b6a7-4bfb-ba51-fca86bc7443e_Img.png",
+      "PackagePath": "staticwebassets\\specialistCertificate\\9e243be2-b6a7-4bfb-ba51-fca86bc7443e_Img.png"
+    },
+    {
+      "Id": "G:\\Mameto\\backend\\Mameto\\wwwroot\\specialistCertificate\\a1822eca-f3a3-4631-9463-5ce1ad7ef0ee_Img.jpg",
+      "PackagePath": "staticwebassets\\specialistCertificate\\a1822eca-f3a3-4631-9463-5ce1ad7ef0ee_Img.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Mameto.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Mameto.props",
+      "PackagePath": "build\\Mameto.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Mameto.props",
+      "PackagePath": "buildMultiTargeting\\Mameto.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Mameto.props",
+      "PackagePath": "buildTransitive\\Mameto.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
